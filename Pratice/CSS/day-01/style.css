@@ -1,0 +1,20 @@
+/* h2{
+        color:red;
+        background: black;
+    }   */
+    p{
+        font-size: 24px;
+    }
+    .first{
+        color:#b5fdc032;
+        background: rgba(170, 0, 255, 0.5);
+        font-style: italic;
+    }
+    .second{
+        color:red;
+        background: green;
+    }
+    .third{
+        color:red;
+        background: yellow;
+    }

@@ -1,0 +1,13 @@
+.box{
+    color: #ff0000;
+    background: #de8181;
+    height: 65px;
+    width: 110px;
+}
+img{
+    width: 285px;
+    height: 285px;
+    object-fit: cover;
+    border: 12px double #000000;
+    border-radius: 30%;
+}

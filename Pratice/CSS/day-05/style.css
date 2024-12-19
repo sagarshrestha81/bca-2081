@@ -1,0 +1,9 @@
+.list-wrapper span,.list-wrapper div{
+    border: 1px solid #000000;
+}
+.list-wrapper{
+    background-color: #ff0000;
+    display: flex;
+        align-items: stretch;
+        justify-content: space-around;
+}
