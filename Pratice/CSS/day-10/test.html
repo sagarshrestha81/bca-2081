@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        .box{
+            display: grid;
+            gap: 4px;
+        }
+        .element{
+            height: 100px;
+            width: 100px;
+            border: 1px solid black;
+         
+        }
+       /* .box .element:first-child{
+            background-color: red;
+        }
+        .box .element:nth-child(7){
+            background-color: green;
+        }
+        .box .element:last-child{
+            background-color: blue;
+        } 
+     .box .element:nth-child(odd){
+background-color: aqua;
+     }
+     .box .element:nth-child(even){
+        background-color: red;
+     }
+        */
+        .box .element:nth-child(-n+4){
+            background-color: red;
+         }
+    </style>
+    
+<div class="box">
+    <div class="element"></div>
+    <div class="element"></div>
+    <div class="element"></div>
+    <div class="element"></div>
+    <div class="element"></div>
+    <div class="element"></div>
+    <div class="element"></div>
+    <div class="element"></div>
+    <div class="element"></div>
+    <div class="element"></div>
+</div>
+
+
+</body>
+</html>
