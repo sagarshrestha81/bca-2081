@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        .image-grid{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+            gap: 12px;
+        }
+        .image-grid img{
+            width: 100%;
+            height: 100%;
+        }
+        .image-grid img:nth-child(1){
+            grid-column-start: 1;
+            grid-column-end: 3;
+            grid-row-start: 1;
+            grid-row-end: 3;
+        }
+        .image-grid img:nth-child(4){
+            grid-column-start: 5;
+            grid-column-end: 7;
+            grid-row-start: 1;
+            grid-row-end: 3;
+        }
+        .image-grid img:nth-child(11){
+            grid-column-start: 3;
+            grid-column-end: 5;
+            grid-row-start: 3;
+            grid-row-end: 5;
+        }
+        .image-grid img:nth-child(16){
+            grid-column-start: 1;
+            grid-column-end: 3;
+            grid-row-start: 5;
+            grid-row-end: 7;
+        }
+        .image-grid img:nth-child(21){
+            grid-column-start: 5;
+            grid-column-end: 7;
+            grid-row-start: 5;
+            grid-row-end: 7;
+        }
+
+
+
+    </style>
+    <div class="image-grid">
+        <img src="https://picsum.photos/200/200?random=1" alt="Random Image 1">
+        <img src="https://picsum.photos/200/200?random=2" alt="Random Image 2">
+        <img src="https://picsum.photos/200/200?random=3" alt="Random Image 3">
+        <img src="https://picsum.photos/200/200?random=4" alt="Random Image 4">
+        <img src="https://picsum.photos/200/200?random=5" alt="Random Image 5">
+        <img src="https://picsum.photos/200/200?random=6" alt="Random Image 6">
+        <img src="https://picsum.photos/200/200?random=7" alt="Random Image 7">
+        <img src="https://picsum.photos/200/200?random=8" alt="Random Image 8">
+        <img src="https://picsum.photos/200/200?random=9" alt="Random Image 9">
+        <img src="https://picsum.photos/200/200?random=10" alt="Random Image 10">
+        <img src="https://picsum.photos/200/200?random=11" alt="Random Image 11">
+        <img src="https://picsum.photos/200/200?random=12" alt="Random Image 12">
+        <img src="https://picsum.photos/200/200?random=13" alt="Random Image 13">
+        <img src="https://picsum.photos/200/200?random=14" alt="Random Image 14">
+        <img src="https://picsum.photos/200/200?random=15" alt="Random Image 15">
+        <img src="https://picsum.photos/200/200?random=16" alt="Random Image 16">
+        <img src="https://picsum.photos/200/200?random=17" alt="Random Image 17">
+        <img src="https://picsum.photos/200/200?random=18" alt="Random Image 18">
+        <img src="https://picsum.photos/200/200?random=19" alt="Random Image 19">
+        <img src="https://picsum.photos/200/200?random=20" alt="Random Image 20">
+        <img src="https://picsum.photos/200/200?random=21" alt="Random Image 21">
+    </div>
+</body>
+</html>
