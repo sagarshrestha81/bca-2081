@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
+        header,
+        sidebar,
+        main,
+        footer {
+            border: 1px solid black;
+        }
+        .layout{
+            display: grid;
+           /* grid-template-columns: 200px auto; 
+           grid-template-rows: 100px auto 100px; */
+           height: 100vh;
+              grid-template-areas:"header header header"
+                                    "sidebar main main"
+                                    "footer footer footer";
+            }
+        header{
+               /*  grid-column: 1/3;*/
+               grid-area: footer;
+        }
+        sidebar{
+               grid-area: sidebar;
+        }
+        main{
+               grid-area: header;
+        }
+        footer{
+               /*  grid-column: 1/3;*/
+                grid-area: main;
+        }
+
+    </style>
+
+    <div class="layout">
+        <header>
+            <h1>header</h1>
+        </header>
+        <sidebar>
+            <h1>sidebar</h1>
+        </sidebar>
+        <main>
+            <h1>main</h1>
+        </main>
+        <footer>
+            <h1>footer</h1>
+        </footer>
+    </div>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum voluptatum, excepturi sed accusamus ab perferendis quidem dolorem commodi facilis vel placeat amet doloribus saepe nesciunt rem ipsa fugiat explicabo vitae!</p>
+
+</body>
+
+</html>

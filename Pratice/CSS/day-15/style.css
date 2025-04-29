@@ -1,0 +1,30 @@
+.box{
+    width: 200px;
+    height: 200px;
+    background-color: #ff0000;
+}
+.box::before{
+content: "";
+    background: #ffff00;
+    width: 100px;
+    height: 100px;
+    display: block;
+
+
+}
+.box::after{
+    content: ":";
+}
+@media only screen and (min-width:768px){
+    .box{
+        /* background-size: contain;
+        background-repeat: no-repeat;
+        background-position: right;
+        background-image: url(./istockphoto-1911602365-1024x1024.jpg); */
+    }
+}
+@media only screen and (min-width:991px){
+    .box{
+        background: #00ff00;
+    }
+}

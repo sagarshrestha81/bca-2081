@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        .box{
+            display: grid;
+            gap: 4px;
+            grid-template-columns: 100px 100px 1fr;
+
+        }
+        .element{
+            height: 100%;
+            width: 100%;
+            border: 1px solid black;
+            min-height: 80px;
+         
+        }
+       .box .element:nth-child(1n){
+        background:#ff0000;
+       }
+       .box .element:nth-child(2n){
+        background:#00ff00;
+       }
+       .box .element:nth-child(3n){
+        background:#0000ff;
+       }
+       .box .element:nth-child(4n){
+        background:#ffff00;
+       }
+       .box .element:nth-child(5n){
+        background:#00ffff;
+       }
+       
+      
+       
+    </style>
+    
+<div class="box">
+    <div class="element"></div>
+    <div class="element"></div>
+    <div class="element"></div>
+    <div class="element"></div>
+    <div class="element"></div>
+    <div class="element"></div>
+</div>
+
+
+</body>
+</html>

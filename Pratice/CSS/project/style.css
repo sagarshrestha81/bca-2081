@@ -1,0 +1,108 @@
+body {
+    margin: 0;
+}
+
+
+/* Header */
+.top-header {
+    background: #6d3098;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 16px;
+    font-size: 16px;
+    align-items: center;
+
+}
+
+.top-header a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.top-header .info-college,
+.top-header .top-nav-social .navs {
+    display: flex;
+    gap: 8px;
+}
+
+.top-header .top-nav-social {
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+    align-items: center;
+}
+
+.top-header .social-wrapper {
+    display: flex;
+    gap: 8px;
+}
+
+.top-header .social-wrapper a {
+    display: flex;
+    width: 42px;
+    height: 42px;
+    /* background: #ff0000; */
+    justify-content: center;
+    align-items: center;
+}
+
+.main-header {
+    display: flex;
+    background: #ffb606;
+    justify-content: space-around;
+    padding: 12px 0;
+    align-items: center;
+}
+.main-header .logo img {
+    width: 150px;
+    height: auto;
+}
+
+.navs {
+    display: flex;
+    gap: 24px;;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 8px;
+}
+
+nav li a {
+    color: #000;
+    text-decoration: none;
+}
+
+nav li a:hover{
+    color: #fff;
+    border-bottom: 2px solid #f05822;
+    padding: 8px 0;
+}
+.button{
+    background: #f05822;
+    color: #fff;
+    padding: 12px;
+    text-decoration: none;
+    border-radius: 8px;
+    border: 1px solid #f05822;
+    transition: all .5s ease;
+}
+
+.button:hover{
+    background: transparent;
+    color: #f05822;
+}
+.hamburger{
+    display: none;
+}
+@media only screen and (max-width: 991px) {
+    .hamburger{
+        display: block;
+    }
+    .navs{
+        display: none;
+    }
+}

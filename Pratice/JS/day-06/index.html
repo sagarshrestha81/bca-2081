@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <section class="count-title">
+        <p class="count-text">count is</p>
+    </section>
+    <div>
+        <span id="count">0</span>
+        <button onclick="clicked();">
+            click me
+        </button>
+    </div>
+
+
+
+    <script>
+        var cli = 0;
+
+        function clicked() {
+            // cli += 1;
+            cli = cli + 1;
+
+
+            console.log("you clicked button" + cli);
+            // document.write("you clicked button"+cli);
+
+            document.getElementById("count").innerText = cli;
+
+
+        }
+
+
+
+        //function
+
+
+        /* function hello(name,address){
+            //let name ="sagar";
+            console.log("hello im "+ name+" im from "+address);
+        }
+
+        hello("ram","chabahil");
+        hello("shyam","baudha");
+        hello("hari","koteshwor");
+        hello("krishna","sinamangal");
+        hello("sagar","tinkune"); */
+
+        /*  function add(a, b) {
+              c = a + b;
+              console.log("the sum is " + c);
+          }
+
+          function totalMarks(eng, nep, sci, math, com) {
+              marks = eng + nep + sci + math + com;
+              //  console.log(marks);
+              return marks;
+          }
+
+          add(40, 30)
+          add(4233, 432)
+
+          console.log("total marks is " + totalMarks(45, 65, 32, 54, 23)); 
+
+        let a = 10;
+
+        console.log(a)
+        let c =  50;
+        function fun() {
+            let b = 20;
+            let c =  1000;
+            console.log(b)
+            console.log("----Local-----")
+            console.log(a, b)
+        }
+        fun();
+
+        console.log("----Global-----")
+        console.log(a,c)*/
+    </script>
+
+
+</body>
+
+</html>
